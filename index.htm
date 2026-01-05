@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+        <head><title>Google Search bar</title></head>
+        <style>
+            
+            .google{
+                width: 50%;
+                height: 40px;
+                border-radius: 20px;
+                border: none;
+                box-shadow: 3px 3px 3px gray;
+                font-size: 14px;
+                color: rgba(96,96,96);
+                text-align: left;
+                padding-left: 25px;
+            }
+            .img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 50px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .para{
+                display: inline-block;
+              vertical-align: top;
+              margin-top: 14px;
+              margin-left: 10px;
+            }
+            .tweet{
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 10px;
+                margin-top: 10px;
+                border: none;
+                border-radius: 43px;
+                width: 75px;
+                height: 30px;
+                background-color: rgb(53, 53, 224);
+                color: white;
+                font-weight: bold;
+            }
+            .text{
+                width: 250px;
+                height: 25px;
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 20px;
+            }
+            .email{
+                margin-bottom: 0;
+                color: rgb(84, 84, 84);
+                font-size: 17px;
+            }
+            .agree{
+                width: 300px;
+                height: 40px;
+                border: none;
+                border-radius: 30px;
+                background-color: rgb(26, 26, 241);
+                color: white;
+                font-weight: bold;
+            }
+            .by{
+                color: rgb(81, 78, 78);
+                font-size: 17px;
+        
+            }
+            .koogle{
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 130px;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: -18px;
+            }
+            .g{
+                color:rgb(74, 99, 223);
+            }
+            .o{
+                color: red;
+                
+            }
+            .oo{
+                color: yellow;
+            }
+            .gg{
+                color:rgb(74, 99, 223); ;
+            }
+            .l{
+                color: green;
+            }
+            .e{
+                color: red;
+            }
+            .search{
+                margin-top: 20px;
+                width:150px ;
+                height: 35px;
+                font-weight: bold;
+                border: none;
+                border-radius: 2px;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .feeling{
+                margin-left: 20px;
+                 width:150px ;
+                height: 35px;
+                font-weight: bold;
+                border: none;
+                border-radius: 2px;
+                font-size: 15px;
+                 cursor: pointer;
+            }
+            p{
+               width: 300px; 
+               font-size: 20px;
+               font-weight: bold;
+                
+            }
+            .yes{
+                display: inline-block;
+                border:none;
+                width: 50px;
+                height: 30px;
+                font-weight: bold;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .no{
+                display: inline-block;
+                border:none;
+                width: 50px;
+                height: 30px;
+                font-weight: bold;
+                font-size: 14px;
+                cursor: pointer;
+            }
+           .pickup{
+            display: block;
+            margin-bottom: 20px;
+            border: none;
+            width: 300px;
+            height: 40px;
+            padding-right: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+             color:rgba(96,96,96)
+           }
+           .destination{
+            display: block;
+            border: none;
+            width: 300px;
+            height: 40px;
+            padding-right: 130px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color:rgba(96,96,96);
+           }
+           .requst{
+            background-color: black;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-top: 20px;
+            vertical-align: top;
+           }
+           .schedule{
+            vertical-align: top;
+            color: black;
+            width: 120px;
+            height: 40px;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 20px;
+           }
+            .cat1{
+                width: 300px;
+                height: 300px;
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 5px;
+                display: block;
+                display: inline-block;
+            }
+            .oliver{
+                margin-top: 0;
+                display: inline-block;
+                margin-bottom: 0;
+            }
+            .mutual{
+                margin-top: 0;
+                line-height: 5px;
+                color: rgba(96,96,96);
+                margin-top: -10px;
+                font-size: 18px;
+                display: inline-block
+            }
+            .frnd{
+                width: 120px;
+                height: 40px;
+                border: none;
+                border-radius: 3px;
+                background-color: rgb(59, 59, 230);
+                color: white;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .catrow{
+             width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            border: 2px solid grey;
+            padding:2px;
+            }
+            .catrow2{
+                width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            border: 2px solid grey;
+            padding:2px;
+            }
+          .cat2{
+             width: 300px;
+                height: 300px;
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 5px;
+                display: block;
+                display: inline-block;
+          }
+          .mimi{
+             margin-top: 0;
+                display: inline-block;
+                margin-bottom: 0;
+          }
+          .mutual2{
+             margin-top: 0;
+                line-height: 5px;
+                color: rgba(96,96,96);
+                margin-top: -10px;
+                font-size: 18px;
+                display: inline-block
+          }
+          .frnd2{
+              width: 120px;
+                height: 40px;
+                border: none;
+                border-radius: 3px;
+                background-color: rgb(59, 59, 230);
+                color: white;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+          }
+          .catrow3{
+             width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            border: 2px solid grey;
+            padding:2px;
+          }
+          .cat3{
+             width: 300px;
+                height: 300px;
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 5px;
+                display: block;
+                display: inline-block;
+          
+          }
+          .rex{
+            margin-top: 0;
+                display: inline-block;
+                margin-bottom: 0;
+          }
+          .mutual3{
+            margin-top: 0;
+                line-height: 5px;
+                color: rgba(96,96,96);
+                margin-top: -10px;
+                font-size: 18px;
+                display: inline-block
+          }
+          .frnd3{
+             width: 120px;
+                height: 40px;
+                border: none;
+                border-radius: 3px;
+                background-color: rgb(59, 59, 230);
+                color: white;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+          }
+          .name{
+            width: 120px;
+            height: 40px;
+            color: rgba(96,96,96);
+            border-radius: 4px;
+            border:2px solid gray;
+             padding-right: 40px;
+              font-size: 15px;
+
+         
+          }
+          .name2{
+            width: 120px;
+            height: 40px;
+            color: rgba(96,96,96);
+            border-radius: 4px;
+            border:2px solid gray;
+            margin-bottom: 12px;
+            padding-right: 40px;
+             font-size: 15px;
+
+          }
+          .email2{
+            width: 250px;
+            height: 40px;
+            color: rgba(96,96,96);
+            border-radius: 4px;
+            border:2px solid gray;
+            margin-bottom: 12px;
+             padding-right: 200px;
+          }
+          .up{
+             width: 250px;
+            height: 40px;
+            color: rgba(96,96,96);
+            border-radius: 4px;
+            border:2px solid gray;
+            margin-bottom: 12px;
+             padding-right: 170px;
+             font-size: 18px;
+             background-color:rgb(13, 13, 185);
+             color: white;
+             border: none;
+          }
+          .up:hover{
+            opacity: 0.7;
+          }
+        </style>
+  <body>
+    <center>
+        <h1 class="koogle">
+        <span class="g">G</span>
+        <span class="o">o</span>
+        <span class="oo">o</span>
+        <span class="gg">g</span>
+        <span class="l">l</span>
+        <span class="e">e</span></h1>
+    </center>
+    <center>
+        
+    <button class="google"> Search Google or Type a URL</button>
+    <div>
+    <button class="search">Google search</button>
+    <button class="feeling">I'm feeling lucky</button>
+    </div>
+    <hr>
+    <div></center>
+        <div class="pic">
+            <img src="WhatsApp Image 2025-04-02 at 21.16.48.jpeg" class="img">
+            <p class="para">What's happening ?</p>
+             <button class="tweet">Post</button>
+        </div>
+        <hr>
+         <div class="catrow">
+            <div class="catcolm">
+                <img src="cat1.jpeg" class="cat1">
+            </div>
+            <div>
+                <p class="oliver">Oliver</p>
+                <p class="mutual">2 mutual friends</p>
+                <button class="frnd">Add Friend</button>
+            </div>
+            </div>
+            <div class="catrow2">
+                <div class="catcolm2">
+                    <img src="cat2.jpeg" class="cat2">
+                </div>
+                <div>
+                    <p class="mimi">Mimi</p>
+                    <p class="mutual2">2 mutual friends</p>
+                    <button class="frnd2">Add Friend</button>
+                </div>
+            </div>
+        <div class="catrow3">
+            <div>
+                <img src="cat3.jpeg" class="cat3">
+            </div>
+            <div>
+                <p class="rex">Rex</p>
+                <p class="mutual3">4 mutual friends</p>
+                <button class="frnd3">Add Friend</button>
+            </div>
+        </div><hr>
+            <h1>Sign up form</h1>
+            <button class="name">First name</button>
+            <button class="name2">Last name</button>
+            <div>
+                <button class="email2">Email</button>
+            </div>
+            <div>
+                <button class="up">Sign up</button>
+            </div><hr>
+<center>
+        <div>
+            <p class="email">Email</p>
+            <input type="text" class="text">
+            <p class="by">By clicking Agree & join to the privacy policy.</p>
+            <button class="agree">Agree & Join</button>
+        </div>
+    </div>
+    <div class="row">
+        <p>Thanks for chatting with our customer support. would you like to take our quick survey</p>
+    </div>
+    <div class="row"> 
+        <button class="yes">yes</button>
+        <button class="no">no</button></div><hr>
+        
+            <h1>uber request-a-ride form</h1>
+            <h2>Request a ride now</h2>
+            <button class="pickup">Enter pickup location</button>
+            <button class="destination">Enter destination</button>
+            <button class="requst">Request now</button>
+            <button class="schedule">Schedule for later</button>
+        </center><hr>
+  </body>
+  
+</html>
