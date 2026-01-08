@@ -1,1 +1,1 @@
-# html-css-projrct3
+This project is a simple static website built using HTML and CSS. It displays image cards at the top, followed by a sign-up form, an email input section, and an Uber-style “Request a Ride” form. The project focuses on practicing HTML forms, CSS styling, and basic page layout structure. Suitable for beginners learning front-end development.
